@@ -60,14 +60,14 @@ a #text{
     text-align: center;
     color: #eee;
     background-color: rgba(0, 0, 0, 0.9);
-    padding: 10px 0 0px 0;
+    padding: 10px 0 10px 0;
     border: 5px solid rgba(50, 129, 168, 0.7);
     min-width: 600px;
 }
 
 .description { 
 	font-family: "visitor1";
-    padding: 0px 50px 10px 50px;
+    padding: 0px 50px;
     margin: 0 auto;
     font-size: 25px;
     text-align: center;
