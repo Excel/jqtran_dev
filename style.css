@@ -86,7 +86,7 @@ a #text{
     font-size: 55px;
     color: white;
     margin: 10px auto;
-    padding: 10px 0 20px 0;
+    padding: 10px 0;
     border: 5px solid rgba(255, 125, 125, 0.7);
 }
 
@@ -150,7 +150,6 @@ a #text{
     -moz-transition: background 0.3s;
     -o-transition: background 0.3s;
     transition: background 0.3s;
-    margin-bottom: -40px;
 
 }
 
