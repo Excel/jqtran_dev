@@ -1,0 +1,208 @@
+@font-face {
+    font-family: Triomphe-Regular;
+    src: local(Triomphe-Regular), url('fonts/Triomphe-Regular.TTF') format('opentype');
+}
+
+@font-face {
+    font-family: m47b;
+    src: local(m47b), url('fonts/m47b.TTF') format('opentype');
+}
+
+@font-face {
+    font-family: visitor1;
+    src: local(visitor1), url('fonts/visitor1.TTF') format('opentype');
+}
+
+
+
+body {
+	color: #000000;
+	font-size: 10;
+	margin: 0;
+    background-color: #031416;
+}
+
+.hidden { 
+	display: none; 
+}
+
+#text {
+	margin-top: 5px;
+    text-align: center;
+    font-family: "visitor1";
+    color: white;
+    font-size: 30px;
+
+}
+a #text{
+	text-decoration: underline;
+}
+
+#header {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 50%;
+    height: 160px;
+    text-align: center;
+    font-family: "m47b";
+    font-size: 120px;
+    color: white;
+    margin: 10px auto;
+    border: 5px solid rgba(255, 125, 125, 0.7);
+    min-width: 600px;
+    max-height: 140px;
+}
+
+#games {
+    font-family: "m47b";
+    width: 50%;
+    margin: 10px auto;
+    font-size: 55px;
+    text-align: center;
+    color: #eee;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px 0 0px 0;
+    border: 5px solid rgba(50, 129, 168, 0.7);
+    min-width: 600px;
+}
+
+.description { 
+	font-family: "visitor1";
+    padding: 0px 50px 10px 50px;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+    color: #eee;
+    max-width: 650px;
+
+}
+
+#contact {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 50%;
+    max-height: 140px;
+    text-align: center;
+    font-family: "m47b";
+    font-size: 55px;
+    color: white;
+    margin: 10px auto;
+    padding: 10px 0 20px 0;
+    border: 5px solid rgba(255, 125, 125, 0.7);
+    min-width: 600px;
+}
+
+#guide h1 {
+	font-family: "M41_LOVEBIT";
+	color: #444;
+	font-size: 18;
+	text-outline: 2px 0 #FFFFFF;
+}
+
+#links{
+	text-align: center;
+	margin-bottom: 10px;
+
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    font-family: "m47b";
+    font-size: 120px;
+    color: white;
+    margin: 10px auto;
+    border: 5px solid rgba(255, 125, 125, 0.7);
+    min-width: 600px;
+}
+
+#guide {
+	font: normal 16px 'Dosis', 'PT Serif', Georgia, serif;
+	color: #eee;
+	background-color: rgba(0, 0, 0, 0.9);
+	padding: 10px 100px 10px 20px;
+}
+
+.icon {
+	width: 7%;
+	margin: 0 10px;
+    transition: 0.1s;
+}
+
+.icon:hover {
+	filter: invert(45%) sepia(72%) saturate(436%) hue-rotate(155deg) brightness(86%) contrast(88%);
+}
+
+.yellow {
+	color: #a1951a;
+}
+
+#banner {
+	border-style:solid;
+	border-width:5px;
+	border-color: rgba(255, 255, 255, 0.7);
+	background-image: url("images/steam capsule.jpg");
+    width: 60%;
+    height: 0;
+    padding-top: 28.16%; /* (430 * 0.6ish / 920 * 100) */
+                /* (853 / 1280 * 100) */
+	margin: 5px auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    transition: background 0.3s;
+    margin-bottom: -40px;
+
+}
+
+#banner:hover {
+	background-image: url("images/library header.png");
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    transition: background 0.3s;
+
+}
+
+#test img {
+	border-style:solid;
+	border-width:2px;
+	border-color: #FFF;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#pictures img {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+
+#pictures {
+text-align: center;
+}
+
+a {	
+	font-family: "m47b";
+	font-size: 15;
+	text-outline: 2px 0 #FFFFFF;
+	text-decoration: none;
+	color: #FFFFFF;
+	vertical-align: middle;
+	display: inline;
+}
+
+.link {
+	width: 25%;
+	height: 23px;
+	background-color: rgba(0, 0, 0, 0.7);
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 7px;
+	padding: 7px auto 0px;
+	display: inline-block;
+}
+
+#links .link:hover{
+	background-color: rgba(255, 0, 0, 0.7);
+}
