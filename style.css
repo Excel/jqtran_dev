@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: visitor1;
-    src: local(visitor1), url('fonts/visitor1.ttf') format('opentype');
+    src: local(visitor1), url('fonts/visitor1.ttf') format('truetype');
 }
 
 
