@@ -41,6 +41,7 @@ a #text{
 #header {
     background-color: rgba(0, 0, 0, 0.9);
     width: 50%;
+    min-width: 900px;
     height: 160px;
     text-align: center;
     font-family: "m47b";
@@ -48,13 +49,13 @@ a #text{
     color: white;
     margin: 10px auto;
     border: 5px solid rgba(255, 125, 125, 0.7);
-    min-width: 600px;
     max-height: 140px;
 }
 
 #games {
     font-family: "m47b";
     width: 50%;
+    min-width: 900px;
     margin: 10px auto;
     font-size: 55px;
     text-align: center;
@@ -62,7 +63,6 @@ a #text{
     background-color: rgba(0, 0, 0, 0.9);
     padding: 10px 0 10px 0;
     border: 5px solid rgba(50, 129, 168, 0.7);
-    min-width: 600px;
 }
 
 .description { 
@@ -72,13 +72,14 @@ a #text{
     font-size: 25px;
     text-align: center;
     color: #eee;
-    max-width: 650px;
+    max-width: 750px;
 
 }
 
 #contact {
     background-color: rgba(0, 0, 0, 0.9);
     width: 50%;
+    min-width: 900px;
     max-height: 140px;
     text-align: center;
     font-family: "m47b";
@@ -87,7 +88,6 @@ a #text{
     margin: 10px auto;
     padding: 10px 0 20px 0;
     border: 5px solid rgba(255, 125, 125, 0.7);
-    min-width: 600px;
 }
 
 #guide h1 {
@@ -101,6 +101,7 @@ a #text{
 	text-align: center;
 	margin-bottom: 10px;
 
+    min-width: 900px;
     background-color: rgba(0, 0, 0, 0.9);
     width: 50%;
     height: 30px;
@@ -110,7 +111,6 @@ a #text{
     color: white;
     margin: 10px auto;
     border: 5px solid rgba(255, 125, 125, 0.7);
-    min-width: 600px;
 }
 
 #guide {
